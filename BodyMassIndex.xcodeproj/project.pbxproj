@@ -14,6 +14,10 @@
 		14253C601C00BC8F0009426A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14253C5E1C00BC8F0009426A /* LaunchScreen.storyboard */; };
 		14253C6B1C00BC8F0009426A /* BodyMassIndexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14253C6A1C00BC8F0009426A /* BodyMassIndexTests.swift */; };
 		14253C761C00BC8F0009426A /* BodyMassIndexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14253C751C00BC8F0009426A /* BodyMassIndexUITests.swift */; };
+		14253C841C00D9150009426A /* Indexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14253C831C00D9150009426A /* Indexer.swift */; };
+		14253C851C00D9150009426A /* Indexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14253C831C00D9150009426A /* Indexer.swift */; };
+		14253C871C00DF630009426A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14253C861C00DF630009426A /* Category.swift */; };
+		14253C881C00DF630009426A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14253C861C00DF630009426A /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,8 @@
 		14253C711C00BC8F0009426A /* BodyMassIndexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BodyMassIndexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14253C751C00BC8F0009426A /* BodyMassIndexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyMassIndexUITests.swift; sourceTree = "<group>"; };
 		14253C771C00BC8F0009426A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14253C831C00D9150009426A /* Indexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indexer.swift; sourceTree = "<group>"; };
+		14253C861C00DF630009426A /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,14 @@
 		14253C541C00BC8F0009426A /* BodyMassIndex */ = {
 			isa = PBXGroup;
 			children = (
+				14253C861C00DF630009426A /* Category.swift */,
 				14253C551C00BC8F0009426A /* AppDelegate.swift */,
 				14253C571C00BC8F0009426A /* ViewController.swift */,
 				14253C591C00BC8F0009426A /* Main.storyboard */,
 				14253C5C1C00BC8F0009426A /* Assets.xcassets */,
 				14253C5E1C00BC8F0009426A /* LaunchScreen.storyboard */,
 				14253C611C00BC8F0009426A /* Info.plist */,
+				14253C831C00D9150009426A /* Indexer.swift */,
 			);
 			path = BodyMassIndex;
 			sourceTree = "<group>";
@@ -260,7 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				14253C581C00BC8F0009426A /* ViewController.swift in Sources */,
+				14253C841C00D9150009426A /* Indexer.swift in Sources */,
 				14253C561C00BC8F0009426A /* AppDelegate.swift in Sources */,
+				14253C871C00DF630009426A /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +279,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				14253C6B1C00BC8F0009426A /* BodyMassIndexTests.swift in Sources */,
+				14253C851C00D9150009426A /* Indexer.swift in Sources */,
+				14253C881C00DF630009426A /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
